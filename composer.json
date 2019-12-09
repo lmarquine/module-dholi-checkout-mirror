@@ -1,0 +1,35 @@
+{
+  "name": "dholi/module-dholi-checkout",
+  "type": "magento2-module",
+  "description": "dholi.dev - Checkout para Magento 2",
+  "homepage": "https://www.dholi.dev/",
+  "keywords": [
+    "magento",
+    "magento2",
+    "checkout",
+    "ecommerce"
+  ],
+  "authors": [
+    {
+      "name": "dholi.dev",
+      "email": "comunidade@dholi.dev"
+    }
+  ],
+  "require": {
+    "php": "~7.2",
+    "magento/framework": ">=102.0.2",
+    "dholi/module-dholi-core": "dev-master"
+  },
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "src/module-dholi-checkout/registration.php"
+    ],
+    "psr-4": {
+      "Dholi\\Checkout\\": "src/module-dholi-checkout"
+    }
+  }
+}
