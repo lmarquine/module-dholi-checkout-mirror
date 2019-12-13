@@ -18,7 +18,8 @@
   "require": {
     "php": "~7.2",
     "magento/framework": ">=102.0.2",
-    "dholi/module-dholi-core": "dev-master"
+    "dholi/module-dholi-core": "dev-master",
+    "dholi/module-dholi-geoloc": "dev-master"
   },
   "license": [
     "OSL-3.0",
