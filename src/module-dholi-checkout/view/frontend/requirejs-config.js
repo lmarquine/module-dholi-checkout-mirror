@@ -1,1 +1,1 @@
-var config={map:{"*":{}}};
+var config={config:{mixins:{"Magento_Checkout/js/view/cart/shipping-estimation":{"Dholi_Checkout/js/view/cart-autocomplete":true},"Magento_Checkout/js/action/set-shipping-information":{"Dholi_Checkout/js/view/address-autocomplete":true}}}};
